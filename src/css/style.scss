@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0.32rem;
+}
+
+html,
+body,
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 0.9rem;
+    background: #000000;
+    color: #fff;
+    line-height: 0.9rem;
+    display: flex;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    span {
+        flex: 1;
+    }
+    .span {
+        flex: 3;
+    }
+}
+
+.main {
+    width: 100%;
+    .one {
+        width: 100%;
+        height: 0.9rem;
+        line-height: 0.9rem;
+        padding-left: 0.2rem;
+        color: hotpink;
+        border-bottom: 1px solid #ccc;
+    }
+    .twe {
+        width: 100%;
+        height: 0.9rem;
+        line-height: 0.9rem;
+        padding-left: 0.2rem;
+        border-bottom: 1px solid #ccc;
+        display: flex;
+        span {
+            flex: 1;
+        }
+        .mu {
+            flex: 7;
+        }
+    }
+    .three {
+        width: 100%;
+        height: 0.9rem;
+        line-height: 0.9rem;
+        padding-left: 0.2rem;
+        border-bottom: 1px solid #ccc;
+    }
+    .four {
+        width: 100%;
+        height: 1.8rem;
+        padding-left: 0.2rem;
+        border-bottom: 1px solid #ccc;
+        .top {
+            width: 100%;
+            height: 0.9rem;
+            line-height: 0.9rem;
+        }
+        .botton {
+            width: 100%;
+            height: 0.9rem;
+            span {
+                color: #000;
+                padding: 0 0.05rem;
+            }
+            b {
+                display: inline-block;
+                width: 70%;
+                height: 0.1rem;
+                background: #eee;
+                position: relative;
+                i {
+                    display: inline-block;
+                    width: 0.2rem;
+                    height: 0.2rem;
+                    line-height: 0.2rem;
+                    border-radius: 50%;
+                    background: #eee;
+                    color: hotpink;
+                    position: absolute;
+                    top: -0.1rem;
+                    left: 0;
+                }
+            }
+        }
+    }
+    .five {
+        width: 100%;
+        height: 0.9rem;
+        line-height: 0.9rem;
+        padding-left: 0.2rem;
+        border-bottom: 1px solid #ccc;
+    }
+    .fabu {
+        width: 100%;
+        textarea {
+            width: 100%;
+            height: 3rem;
+            border: 1px solid #ccc;
+            margin: 0.2rem auto;
+        }
+        .tu {
+            width: 100%;
+            display: flex;
+            h1 {
+                flex: 1;
+                height: 1rem;
+                line-height: 1rem;
+                padding-left: 0.3rem;
+            }
+            div {
+                flex: 5;
+                img {
+                    width: 2rem;
+                    height: 2rem;
+                }
+            }
+        }
+        .button {
+            width: 80%;
+            height: 0.9rem;
+            line-height: 0.9rem;
+            background: hotpink;
+            border: none;
+            margin-left: 0.5rem;
+        }
+    }
+}
